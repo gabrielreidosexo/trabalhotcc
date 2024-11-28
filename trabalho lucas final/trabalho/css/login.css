@@ -1,0 +1,254 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(46, 44, 44);
+}
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f5;
+}
+
+/* Cabeçalho */
+header nav {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar-container img {
+    height: 30px;
+    margin-right: 20px;
+}
+
+#divBusca {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+#txtBusca {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#btnBusca {
+    height: 30px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #232F3E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d2630;
+}
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+}
+
+/* Cabeçalho e barra de navegação */
+.navbar {
+    background-color: #000000;
+    padding: 10px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Links do menu */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #000000;
+    border-radius: 5px;
+}
+.form{
+    width: 400px;
+    padding-top: 70px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.card-top{
+text-align: center;
+}
+header nav {
+    background-color: #000000;
+    color: #fff;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    top: 25px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  
+}
+.carrinho{
+    position: absolute;
+    top: 25px;
+    left: 1250px;
+    
+}
+.conta{
+    position: absolute;
+    left: 1200px;
+    top: 25px;
+}
+
+img {
+    width: 65px;
+    }
+    .navbar-container
+.nav-links li {
+    margin-right: 200px;
+    
+}
+
+.card{
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+.card-group{
+    padding:10px;  
+}
+.card-group > label{
+display: block;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+}
+.card-group > input{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow:0px 0px 1.5px black;
+    font-size: 14px;
+}
+.card-group > button{
+    width: 100%;
+    height: 50px;
+    color:white;
+    background-color: black;
+    border:0px;
+    border-radius: 30px;
+    outline: 0px;
+}
+.mem{
+    color: black;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.esq{
+    color:black
+}
+.cad{
+    font-size: 12px;
+    padding-top: 10px;
+}
+.lin{
+    color: black;
+    padding-left: 10px;
+}

@@ -1,0 +1,401 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f5;
+}
+
+header nav {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar-container img {
+    height: 40px;
+    margin-right: 20px;
+}
+
+#divBusca {
+    display: flex;
+    align-items: center;
+    margin-right: 5px
+    
+}
+
+#txtBusca {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+   
+}
+
+#btnBusca {
+    height: 30px;
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #232F3E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d2630;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cart-container {
+    padding: 40px 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+#cart {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+header nav {
+    background-color: #000000;
+    color: #fff;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    top: 25px;
+}
+
+#divBusca {
+    display: flex;
+    align-items: center;
+  
+}
+
+#txtBusca {
+    position: absolute;
+    left: 100px;
+    width: 150px;
+}
+
+#btnBusca {
+    height: 30px;
+    position: absolute;
+    top: 25px; 
+    right: 1000px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  
+}
+.carrinho{
+    position: absolute;
+    top: 25px;
+    left: 1250px;
+    
+}
+.conta{
+    position: absolute;
+    left: 1200px;
+    top: 25px;
+}
+.logo {
+    height: 75px;
+    width: 75px;
+}
+img {
+    width: 65px;
+    }
+    .navbar-container
+.nav-links li {
+    margin-right: 200px;
+    
+}
+
+.empty-cart {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 4px dashed black;
+}
+
+.cart-product {
+    min-height: 225px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    border: 1px solid #b9b9b9;
+    overflow: hidden;
+    gap: 30px;
+}
+
+.cart-product-image {
+    max-width: 275px;
+    align-self: center;
+}
+
+.cart-product-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-product-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-header-info {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.cart-product-name {
+    margin: 0;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.cart-product-ammount {
+    margin: 0;
+    font-size: 18px;
+}
+
+.cart-delete-button {
+    margin-left: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #5a5a5a;
+    cursor: pointer;
+}
+
+.cart-delete-button:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.cart-delete-button:active {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.cart-product-size-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-product-size {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: white;
+}
+
+.cart-product-price-info {
+    margin-top: auto;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.cart-product-price {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.cart-product-stock {
+    margin: 0;
+}
+
+.buy-cart {
+    padding: 20px;
+    border: 1px solid #b9b9b9;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtotal p {
+    margin: 0;
+    font-weight: 600;
+}
+
+.cep-calc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#cep {
+    border: none;
+    border-bottom: 2px solid #000000;
+    width: 150px;
+}
+
+.cep-calc-btn {
+    margin: 0;
+    padding: 10px 15px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    white-space: nowrap;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.cep-calc-btn:hover {
+    background-color: #242424;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+}
+
+.frete-price {
+    display: none;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.frete-price h3, .frete-price p {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.total-price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.total-price h3, .total-price p {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.end-buy {
+    margin: 10px 0;
+    padding: 15px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.keep-buying {
+    padding: 15px;
+    border: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.return {
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}

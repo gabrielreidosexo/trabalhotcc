@@ -1,0 +1,105 @@
+.page-section{
+    padding-bottom: 0;
+}
+
+.next-page-container{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-page-button{
+    padding: 10px;
+    color: #000000;
+    text-decoration: none;
+    border: 2px solid #000000;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 5px;
+}
+
+.resultados{
+    display: flex;
+    align-items: baseline;
+    padding: 0 80px;
+}
+
+.resultados h6{
+    color: #8b8b8b;
+    margin-left: 5px;
+}
+
+#search-results {
+    min-height: 20vh;
+}
+header nav {
+    background-color: #000000;
+    color: #fff;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    top: 25px;
+}
+
+#divBusca {
+    display: flex;
+    align-items: center;
+}
+
+#txtBusca {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    position: absolute;
+    top: 25px; 
+    right: 1000px;
+}
+
+#btnBusca {
+    height: 30px;
+    position: absolute;
+    top: 25px; 
+    right: 1000px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  
+}
+.carrinho{
+    position: absolute;
+    top: 25px;
+    left: 1250px;
+    
+}
+.conta{
+    position: absolute;
+    left: 1200px;
+    top: 25px;
+}
+.logo {
+    height: 75px;
+    width: 75px;
+}
+img {
+    width: 65px;
+    }
+    .navbar-container
+.nav-links li {
+    margin-right: 200px;
+    
+}

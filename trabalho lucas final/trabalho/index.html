@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp">
+    <link rel="icon" href="logo.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>TK Sports</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar-container">
+                <img src="logo.png" class="login" alt="Login">
+                <div id="divBusca">
+                    <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                    <img src="search3.png" id="btnBusca" alt="Buscar"/>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#"><img src="carrinho.png" class="carrinho" alt="Carrinho"></a></li>
+                    <li><a href="#"><img src="login.png" class="conta" alt="Conta"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+<br>
+
+
+    <div class="nav-placeholder"></div>
+    <header>
+        <div class="carousel">
+            <div class="carousel-track-container">
+                <ul class="carousel-track">
+                    <li class="carousel-item active">
+                        <div class="carousel-image-container">
+                            <img class="carousel-image" src="img/tenis-2.png" alt="Tênis Masculino Adidas">
+                        </div>
+                        <div class="carousel-item-info">
+                            <h1 class="item-name">Tênis Masculino Adidas</h1>
+                            <div class="carousel-price-container">
+                                <div>
+                                    <p class="original-price">de R$ 250,00</p>
+                                    <h2 class="discount-price">por R$ 189,99</h2>
+                                </div>
+                                <a class="buy-button" href="product-tenis-adidas.html"><span class="material-icons-outlined">shopping_cart</span>Compre já</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel-item">
+                        <div class="carousel-image-container">
+                            <img class="carousel-image" src="img/tenis-1.png" alt="Tênis The North Face">
+                        </div>
+                        <div class="carousel-item-info">
+                            <h1 class="item-name">Tênis The North Face</h1>
+                            <div class="carousel-price-container">
+                                <div>
+                                    <p class="original-price">de R$ 200,00</p>
+                                    <h2 class="discount-price">por R$ 148,99</h2>
+                                </div>
+                                <a class="buy-button" href="product-tenis.html"><span class="material-icons-outlined">shopping_cart</span>Compre já</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel-button carousel-button-left is-hidden"><span class="material-icons">navigate_before</span></button>
+            <button class="carousel-button carousel-button-right"><span class="material-icons">navigate_next</span></button>
+            <div class="carousel-nav">
+                <button class="carousel-indicator active"></button>
+                <button class="carousel-indicator"></button>
+                <button class="carousel-indicator"></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="page-section">
+            <h1 class="section-title">Ofertas exclusivas</h1>
+            <div class="offers-container">
+                <div class="offer">
+                    <img class="offer-image" src="img/tenis-3.png" alt="Tênis Feminino Adidas">
+                    <h2 class="offer-title">Tênis Feminino Adidas</h2>
+                    <p class="offer-initial-price">de R$ 500,00</p>
+                    <h3 class="offer-discount-price">por R$ 399,99</h3>
+                    <button class="buy-button offer-button"><span class="material-icons-outlined">shopping_cart</span>Compre já</button>
+                </div>
+                <div class="offer">
+                    <img class="offer-image" src="img/tenis-4.png" alt="Tênis Masculino Adidas">
+                    <h2 class="offer-title">Tênis Masculino Adidas</h2>
+                    <p class="offer-initial-price">de R$ 359,99</p>
+                    <h3 class="offer-discount-price">por R$ 250,00</h3>
+                    <button class="buy-button offer-button"><span class="material-icons-outlined">shopping_cart</span>Compre já</button>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <h1 class="section-title">Produtos populares</h1>
+            <div class="popular-products-container">
+                <a class="popular-product" href="product-camisa.html">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="img/blusa2.png" alt="Camiseta Masculina Adidas" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Camiseta Masculina Adidas</h4>
+                        <p class="popular-product-price">R$ 100,00</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="img/blusa3.png" alt="Camisa Básica Masculina Adidas" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Camisa Básica Masculina Adidas</h4>
+                        <p class="popular-product-price">R$ 129,99</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="page-section">
+            <h1 class="section-title">Adicionado recentemente</h1>
+            <div class="new-product-container">
+                <img class="new-product-image" src="img/bicicleta.png" alt="Bicicleta Viper" draggable="false">
+                <div class="new-product-content">
+                    <h2 class="new-product-name">Bicicleta Viper</h2>
+                    <h3 class="new-product-price">R$ 799,99</h3>
+                    <button class="buy-button"><span class="material-icons-outlined">shopping_cart</span>Compre já</button>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <h1 class="section-title">Populares de futebol</h1>
+            <div class="popular-products-container">
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image padding-small" src="img/bola-futebol.png" alt="Bola de Futebol Adidas" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Bola de Futebol Adidas</h4>
+                        <p class="popular-product-price">R$ 159,00</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="img/meiao.jpg" alt="Meião profissional Azul" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Meião profissional Azul</h4>
+                        <p class="popular-product-price">R$ 70,00</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="img/short2.jpg" alt="Short Futebol Masculino Adidas Azul" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Short Futebol Masculino Adidas Azul</h4>
+                        <p class="popular-product-price">R$ 129,99</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="img/cf1.jpg" alt="Camiseta Futebol Feminina Branca" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Camiseta Futebol Feminina Branca</h4>
+                        <p class="popular-product-price">R$ 150,00</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="img/cm1.jpg" alt="Camiseta Futebol Masculina Azul" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Camiseta Futebol Masculina Azul</h4>
+                        <p class="popular-product-price">R$ 175,00</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="img/cf2.jpg" alt="Camiseta Futebol Feminina Vinho" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Camiseta Futebol Feminina Vinho</h4>
+                        <p class="popular-product-price">R$ 199,99</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="img/cm2.jpg" alt="Camiseta Futebol Masculina Preta" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Camiseta Futebol Masculina Preta</h4>
+                        <p class="popular-product-price">R$ 189,99</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="img/short4.jpg" alt="Short Futebol Adidas Preto e Amarelo" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Short Futebol Adidas Preto e Amarelo</h4>
+                        <p class="popular-product-price">R$ 189,99</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="page-section">
+            <h1 class="section-title">Recomendado para você</h1>
+            <div class="new-product-container">
+                <img class="new-product-image" src="img/cb3.png" alt="Camiseta NBA Bulls" draggable="false">
+                <div class="new-product-content">
+                    <h2 class="new-product-name">Camiseta NBA Bulls</h2>
+                    <h3 class="new-product-price">R$ 250,00</h3>
+                    <button class="buy-button"><span class="material-icons-outlined">shopping_cart</span>Compre já</button>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <h1 class="section-title">Bolas e raquetes</h1>
+            <div class="popular-products-container">
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image padding-small" src="img/bola-futebol.png" alt="Bola de Futebol Adidas" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Bola de Futebol Adidas</h4>
+                        <p class="popular-product-price">R$ 159,00</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="img/bola-volei.png" alt="Bola de Vôlei para Prática" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Bola de Vôlei para Prática</h4>
+                        <p class="popular-product-price">R$ 70,00</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image padding-small" src="img/bola-basquete.png" alt="Bola de Basquete Profissional" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Bola de Basquete Profissional</h4>
+                        <p class="popular-product-price">R$ 299,99</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image " src="img/tenis.webp" alt="Conjunto Duas Raquetes e Bola de Tênis" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Conjunto Duas Raquetes e Bola de Tênis</h4>
+                        <p class="popular-product-price">R$ 259,99</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="img/ping-pong.jpg" alt="Conjunto Duas Raquetes e Bola de Ping Pong" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Conjunto Duas Raquetes e Bola de Ping Pong</h4>
+                        <p class="popular-product-price">R$ 199,99</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="page-section">
+            <h1 class="section-title">Outros acessórios e produtos</h1>
+            <div class="popular-products-container">
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="img/bandana2.jpg" alt="Bandana Esportiva Dolkz" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Bandana Esportiva Dolkz</h4>
+                        <p class="popular-product-price">R$ 50,00</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image padding-small" src="img/touca.png" alt="Touca de Natação de Pano" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Touca de Natação de Pano</h4>
+                        <p class="popular-product-price">R$ 60,00</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="img/oculos.png" alt="Óculos de Natação Profissional" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Óculos de Natação Profissional</h4>
+                        <p class="popular-product-price">R$ 160,00</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image padding-small" src="img/bicicleta.png" alt="Bicicleta Viper" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Bicicleta Viper</h4>
+                        <p class="popular-product-price">R$ 799,99</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <div class="footer-placeholder"></div>
+    <script src="js/main.js"></script>
+    <script src="js/carousel.js"></script>
+</body>
+</html>

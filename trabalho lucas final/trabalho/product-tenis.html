@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp">
+    <link rel="icon" href="img/athenas-sport-icon.ico">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>TK sports</title>
+</head>
+<body><header>
+        
+    <nav>
+        <div class="navbar-container">
+            <img src="logo.png" class="logo" alt="Logo">
+            <div id="divBusca">
+                <input type="text"  id="txtBusca" placeholder="Buscar..."/>
+                <img src="search3.png" id="btnBusca" alt="Buscar"/>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#"><img src="carrinho.png" class="carrinho" alt="Carrinho"></a></li>
+                <li><a href="#"><img src="login.png" class="conta" alt="Conta"></a></li>
+            </ul>
+        </div>
+    </nav></div>
+</header>
+    <div class="nav-placeholder"></div>
+    <main>
+        <section class="product-section">
+            <div class="product-container">
+                <div class="product">
+                    <img draggable="false" id="image" class="product-image" src="img/tenis-1.png" alt="Camiseta masculina adidas">
+                    <div class="product-details">
+                        <h1 id="name">Tênis The North Face</h1>
+                        <a href="#informations">Informações do produto</a>
+                        <div class="divider"></div>
+                        <p>Tamanho</p>
+                        <div id="size" class="size-buttons">
+                            <button class="size-button selected">39</button>
+                            <button class="size-button">40</button>
+                            <button class="size-button">41</button>
+                            <button class="size-button">42</button>
+                            <button class="size-button">43</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <p class="availability-info">Em estoque</p>
+                    <p class="original-price">R$ 200,00</p>
+                    <h2 id="price" class="price">R$ 148,99</h2>
+                    <div class="divider"></div>
+                    <div class="ammount">
+                        <button id="sub" class="edit-ammount"><span class="material-icons-outlined">remove</span></button>
+                        <input id="ammount" class="product-ammount" type="number" min="1" value="1">
+                        <button id="add" class="edit-ammount"><span class="material-icons-outlined">add</span></button>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="action-buttons">
+                        <button class="buy">Comprar</button>
+                        <button class="add-to-cart">Adicionar ao carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section">
+            <h1 class="section-title">Produtos recomendados</h1>
+            <div class="popular-products-container">
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="../img/blusa6.jpg" alt="Camiseta Nike" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Camiseta Masculina Nike</h4>
+                        <p class="popular-product-price">R$154,99</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="../img/blusa7.jpg" alt="Camiseta Puma" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Camiseta Masculina Puma Neymar Jr.</h4>
+                        <p class="popular-product-price">R$ 229,99</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="../img/blusa9.png" alt="Camiseta Nike" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Camiseta Masculina Nike</h4>
+                        <p class="popular-product-price">R$ 160,00</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="../img/blusa3.png" alt="Camiseta" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Camiseta Básica Adidas</h4>
+                        <p class="popular-product-price">R$ 129,99</p>
+                    </div>
+                </a>
+                <a class="popular-product" href="#">
+                    <div class="popular-product-image-container">
+                        <img class="popular-product-image" src="../img/blusa4.png" alt="Camiseta" draggable="false">
+                    </div>
+                    <div class="popular-product-info">
+                        <h4 class="popular-product-title">Camiseta Masculina Nike</h4>
+                        <p class="popular-product-price">R$ 149,99</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="informations" class="product-section">
+            <div class="product-informations">
+                <h2>Informações do produto</h2>
+                <div class="informations-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum neque in auctor commodo. Curabitur iaculis metus ut euismod dignissim. Vivamus pellentesque fermentum fermentum. Cras elementum fringilla erat nec lobortis. Praesent ut dapibus felis. Nulla massa ligula, tempor nec nisl ullamcorper, egestas imperdiet massa. Sed blandit a dui quis mattis. Quisque quis porta sapien. Aliquam aliquet, justo id tristique eleifend, sem massa molestie lacus, sed elementum lacus velit nec ligula. Cras posuere facilisis arcu. Pellentesque quis fringilla quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                </div>
+            </div>
+            <div class="product-informations">
+                <h2>Ficha técnica</h2>
+                <table class="informations-content">
+                  <tr>
+                      <td>Código</td>
+                      <td>Marca</td>
+                      <td>Nbm</td>
+                  </tr>
+                  <tr>
+                      <td>00000000</td>
+                      <td>The North Pole</td>
+                      <td>0000.00.00</td>
+                  </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <div class="footer-placeholder"></div>
+    <script src="js/main.js"></script>
+    <script src="js/product.js"></script>
+    <script src="js/ideal-size.js"></script>
+</body>
+</html>
